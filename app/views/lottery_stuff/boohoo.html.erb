@@ -1,0 +1,11 @@
+<h1>Unucky numbers</h1>
+
+<p>Your unlucky numbers for today are:</p>
+
+<ul>
+  <% @loosing_num.each do |nums| %>
+    <li>
+      <%= nums %>
+    </li>
+  <% end %>
+</ul>
